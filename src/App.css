@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Futura PT';
+}
+
+body{
+    background: #ffffff;
+    width: 100%;
+}
+
+
+.icon-fav{
+    opacity: 0;
+    z-index: 10;
+    transition: .1s ease-in;
+}
+
+.icon-fav:hover{
+    opacity: 1;
+}
